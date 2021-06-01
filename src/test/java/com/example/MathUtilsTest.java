@@ -28,7 +28,7 @@ class MathUtilsTest {
 		mathUtils = new MathUtils();
 	}
 	
-	//AfterAll annotations makes the method run after each test is completed
+	//AfterEach annotation makes the method run after each test is completed
 	@AfterEach
 	void afterAllCleanUp() {
 		System.out.println("Test has been finished.....");
